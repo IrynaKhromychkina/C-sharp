@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiAndEuler", "PiAndEuler\PiAndEuler.csproj", "{E183C79C-4C07-4437-830B-E68DADC647FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{7CFE9DEA-3626-40BF-A6E9-B2D6088EE17A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{9488B309-FBC8-4048-B111-8FF26298D6FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E183C79C-4C07-4437-830B-E68DADC647FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E183C79C-4C07-4437-830B-E68DADC647FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E183C79C-4C07-4437-830B-E68DADC647FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E183C79C-4C07-4437-830B-E68DADC647FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFE9DEA-3626-40BF-A6E9-B2D6088EE17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFE9DEA-3626-40BF-A6E9-B2D6088EE17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFE9DEA-3626-40BF-A6E9-B2D6088EE17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFE9DEA-3626-40BF-A6E9-B2D6088EE17A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9488B309-FBC8-4048-B111-8FF26298D6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9488B309-FBC8-4048-B111-8FF26298D6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9488B309-FBC8-4048-B111-8FF26298D6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9488B309-FBC8-4048-B111-8FF26298D6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EAA1984-5C99-41E1-819F-782D88E572E1}
+	EndGlobalSection
+EndGlobal
