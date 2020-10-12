@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentsHandler", "Documen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithDocument", "WorkWithDocument\WorkWithDocument.csproj", "{9DF017C6-BEDE-4A6C-85E7-2DEF49DB8B54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingInterfaces", "UsingInterfaces\UsingInterfaces.csproj", "{CFB69F69-6CFB-423B-B075-109BAE22E7E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9DF017C6-BEDE-4A6C-85E7-2DEF49DB8B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DF017C6-BEDE-4A6C-85E7-2DEF49DB8B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DF017C6-BEDE-4A6C-85E7-2DEF49DB8B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB69F69-6CFB-423B-B075-109BAE22E7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB69F69-6CFB-423B-B075-109BAE22E7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB69F69-6CFB-423B-B075-109BAE22E7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB69F69-6CFB-423B-B075-109BAE22E7E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
