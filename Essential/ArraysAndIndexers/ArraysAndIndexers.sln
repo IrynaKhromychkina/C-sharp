@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixFromArray", "MatrixFr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "Store\Store.csproj", "{CC6B34EA-8E81-4CE6-9633-4977C1E0E567}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfOccurences", "NumberOfOccurences\NumberOfOccurences.csproj", "{868B3732-17C9-4FDB-8E6D-76BA82488E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinWords", "SpinWords\SpinWords.csproj", "{8A2C0E5F-93C3-4A4F-AE89-402DE950F298}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{CC6B34EA-8E81-4CE6-9633-4977C1E0E567}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC6B34EA-8E81-4CE6-9633-4977C1E0E567}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC6B34EA-8E81-4CE6-9633-4977C1E0E567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868B3732-17C9-4FDB-8E6D-76BA82488E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868B3732-17C9-4FDB-8E6D-76BA82488E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868B3732-17C9-4FDB-8E6D-76BA82488E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868B3732-17C9-4FDB-8E6D-76BA82488E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2C0E5F-93C3-4A4F-AE89-402DE950F298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2C0E5F-93C3-4A4F-AE89-402DE950F298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2C0E5F-93C3-4A4F-AE89-402DE950F298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2C0E5F-93C3-4A4F-AE89-402DE950F298}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Store
 {
@@ -10,21 +6,22 @@ namespace Store
     {
         private string goodType;
         private string distributor;
-        private int priceUAH;
-        
+        private double price;
 
-        public goodsInfo[] this [string goodType, string distributor, int priceUAH]
+        public Article(string goodType, string distributor, double price)
         {
-            get
-            {
-
-            }
-            set
-            {
-
-            }
+            this.goodType = goodType;
+            this.distributor = distributor;
+            this.price = price;
         }
 
+        public void ShowGoodsInfo()
+        {
+            Console.WriteLine($"Good type is {goodType}.\nDistribitor is {distributor}.\nPrice is {price}\n");
+        }
 
-    }
+        public string GoodsType => goodType;
+    } 
 }
+
+

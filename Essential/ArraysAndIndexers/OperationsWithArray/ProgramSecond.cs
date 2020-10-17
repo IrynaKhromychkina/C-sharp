@@ -58,32 +58,33 @@ namespace OperationsWithArray
 
         static byte[] OddNumbersMethod(byte[] array)
         {
-            int remainder;
-            int count1 = 0;
-            for (int i = 0; i < array.Length; i++)
-            {
-                remainder = array[i] % 2;
-
-                if (remainder == 1)
-                {
-                    count1++;
-                }
-            }
-
-            byte[] oddValues = new byte[count1];
-            int count2 = 0;
+            int oddNumberCount = GetOddNumbersCount(array);
+            byte[] oddValues = new byte[oddNumberCount];
+            int oddNumbersIndex = 0;
 
             for (int i = 0; i < array.Length; i++)
             {
-                remainder = array[i] % 2;
-
-                if (remainder == 1)
+                if (array[i] % 2 == 1)
                 {
-                    oddValues[count2] = array[i];
-                    count2++;
+                    oddValues[oddNumbersIndex] = array[i];
+                    oddNumbersIndex++;
                 }
             }
             return oddValues;
+        }
+
+        private static int GetOddNumbersCount(byte[] array)
+        {
+            int oddNumberCount = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] % 2 == 1)
+                {
+                    oddNumberCount++;
+                }
+            }
+
+            return oddNumberCount;
         }
     }
 }
