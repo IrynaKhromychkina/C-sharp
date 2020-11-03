@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FabricClass
 {
     class Product
     {
         private static int instanceCounter = 0;
-
         public int CurrentInstanceNumber { get; private set; }
         public Product()
         {

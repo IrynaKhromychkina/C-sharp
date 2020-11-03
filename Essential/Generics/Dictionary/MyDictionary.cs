@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dictionary
 {
@@ -17,7 +13,6 @@ namespace Dictionary
             values = new TValue[capacity];
             Count = 0;
         }
-
         public void Add(TKey key, TValue value)
         {
             if (Count < keys.Length)
@@ -32,7 +27,6 @@ namespace Dictionary
                 Console.WriteLine("Maximum capacity reached. Item entered was not recorded");
             }
         }
-
         public TValue this[int index]
         {
             get
@@ -45,7 +39,6 @@ namespace Dictionary
                 return default;
             }
         }
-
         public int Count { private set; get; }
     }
 }
