@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingYield", "UsingYield\UsingYield.csproj", "{BE8D1D58-6D66-4748-9A3B-BBDD16622FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyList", "MyList\MyList.csproj", "{EED3FFC1-0183-4C03-94FA-625638F396C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{94D705C3-25CE-4C7C-9600-BE150569BEF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE8D1D58-6D66-4748-9A3B-BBDD16622FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8D1D58-6D66-4748-9A3B-BBDD16622FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8D1D58-6D66-4748-9A3B-BBDD16622FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8D1D58-6D66-4748-9A3B-BBDD16622FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED3FFC1-0183-4C03-94FA-625638F396C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED3FFC1-0183-4C03-94FA-625638F396C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED3FFC1-0183-4C03-94FA-625638F396C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED3FFC1-0183-4C03-94FA-625638F396C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D705C3-25CE-4C7C-9600-BE150569BEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D705C3-25CE-4C7C-9600-BE150569BEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D705C3-25CE-4C7C-9600-BE150569BEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D705C3-25CE-4C7C-9600-BE150569BEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C67516E1-ACCF-451F-B3DD-31A503BBD0AF}
+	EndGlobalSection
+EndGlobal
