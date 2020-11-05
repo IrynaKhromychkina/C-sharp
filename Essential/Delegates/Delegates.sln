@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average", "Average\Average.csproj", "{16DCCA69-6520-4EAC-8F9A-47D4C54183DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic", "Arithmetic\Arithmetic.csproj", "{B0709B7D-DB5F-4535-B144-5590CABE0456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayOfDelegates", "ArrayOfDelegates\ArrayOfDelegates.csproj", "{02947616-C32E-491E-ABC2-954EF7C8FFDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16DCCA69-6520-4EAC-8F9A-47D4C54183DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DCCA69-6520-4EAC-8F9A-47D4C54183DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DCCA69-6520-4EAC-8F9A-47D4C54183DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DCCA69-6520-4EAC-8F9A-47D4C54183DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0709B7D-DB5F-4535-B144-5590CABE0456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0709B7D-DB5F-4535-B144-5590CABE0456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0709B7D-DB5F-4535-B144-5590CABE0456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0709B7D-DB5F-4535-B144-5590CABE0456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02947616-C32E-491E-ABC2-954EF7C8FFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02947616-C32E-491E-ABC2-954EF7C8FFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02947616-C32E-491E-ABC2-954EF7C8FFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02947616-C32E-491E-ABC2-954EF7C8FFDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F11CA36-2440-4226-8299-42224988CEDA}
+	EndGlobalSection
+EndGlobal
