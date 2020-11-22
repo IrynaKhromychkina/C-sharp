@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace ProductsDataBase
 {
-    struct Price
+    public struct Price
     {
         string product;
         string shop;

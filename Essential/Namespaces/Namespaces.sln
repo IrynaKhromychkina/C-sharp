@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Connected namespaces", "Connected namespaces", "{1E499719-1B94-4E8B-8D67-E3E63C90E14A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedNamespace", "ConnectedNamespaces\ConnectedNamespace\ConnectedNamespace.csproj", "{3C27016E-B611-4F38-AE45-2FB693460391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNamespace", "ConnectedNamespaces\MyNamespace\MyNamespace.csproj", "{5B07C870-23BF-4949-8F0C-6C836FE7B257}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Access to public method from other assembly", "Access to public method from other assembly", "{BB5EE9B0-0EBB-410E-9ED9-E76B26FEBBC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNamespaceAndAssembly", "FirstNamespaceAndAssembly\FirstNamespaceAndAssembly.csproj", "{1BB25CF0-3CED-4F0E-B2AD-D1CE91138EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondNamespaceAndAssembly", "SecondNamespaceAndAssembly\SecondNamespaceAndAssembly.csproj", "{13CB3976-8484-4525-A6AB-9E3F920AF42F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingOtherNamespace", "UsingOtherNamespace\UsingOtherNamespace.csproj", "{79F3D5B1-2563-41C9-9749-74404961EB16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsDataBase", "..\Exceptions\ProductsDataBase\ProductsDataBase.csproj", "{E92D5BAA-C7EB-4596-8436-B45718B2BF0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Using other namespace within one project", "Using other namespace within one project", "{CEC71724-0019-4406-A4F5-7D74FC4175A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C27016E-B611-4F38-AE45-2FB693460391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C27016E-B611-4F38-AE45-2FB693460391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C27016E-B611-4F38-AE45-2FB693460391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C27016E-B611-4F38-AE45-2FB693460391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B07C870-23BF-4949-8F0C-6C836FE7B257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B07C870-23BF-4949-8F0C-6C836FE7B257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B07C870-23BF-4949-8F0C-6C836FE7B257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B07C870-23BF-4949-8F0C-6C836FE7B257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB25CF0-3CED-4F0E-B2AD-D1CE91138EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB25CF0-3CED-4F0E-B2AD-D1CE91138EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB25CF0-3CED-4F0E-B2AD-D1CE91138EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB25CF0-3CED-4F0E-B2AD-D1CE91138EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CB3976-8484-4525-A6AB-9E3F920AF42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CB3976-8484-4525-A6AB-9E3F920AF42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CB3976-8484-4525-A6AB-9E3F920AF42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CB3976-8484-4525-A6AB-9E3F920AF42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F3D5B1-2563-41C9-9749-74404961EB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F3D5B1-2563-41C9-9749-74404961EB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F3D5B1-2563-41C9-9749-74404961EB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F3D5B1-2563-41C9-9749-74404961EB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92D5BAA-C7EB-4596-8436-B45718B2BF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92D5BAA-C7EB-4596-8436-B45718B2BF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92D5BAA-C7EB-4596-8436-B45718B2BF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92D5BAA-C7EB-4596-8436-B45718B2BF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C27016E-B611-4F38-AE45-2FB693460391} = {1E499719-1B94-4E8B-8D67-E3E63C90E14A}
+		{5B07C870-23BF-4949-8F0C-6C836FE7B257} = {1E499719-1B94-4E8B-8D67-E3E63C90E14A}
+		{1BB25CF0-3CED-4F0E-B2AD-D1CE91138EFA} = {BB5EE9B0-0EBB-410E-9ED9-E76B26FEBBC5}
+		{13CB3976-8484-4525-A6AB-9E3F920AF42F} = {BB5EE9B0-0EBB-410E-9ED9-E76B26FEBBC5}
+		{79F3D5B1-2563-41C9-9749-74404961EB16} = {CEC71724-0019-4406-A4F5-7D74FC4175A7}
+		{E92D5BAA-C7EB-4596-8436-B45718B2BF0B} = {CEC71724-0019-4406-A4F5-7D74FC4175A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DEEAFA5-4FB6-466F-8257-8763065E5C89}
+	EndGlobalSection
+EndGlobal
