@@ -118,7 +118,7 @@ namespace Train
                     else
                     {
                         Console.WriteLine("There is no information about this route.");
-                        break;
+                        continue;
                     }
                 }
             }
