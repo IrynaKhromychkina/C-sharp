@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NVI", "NVI\NVI.csproj", "{32825460-D136-49DB-98DA-C413FD8EC000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{9664DEF6-A935-4141-A7C4-4A14ED5FCE62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32825460-D136-49DB-98DA-C413FD8EC000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32825460-D136-49DB-98DA-C413FD8EC000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32825460-D136-49DB-98DA-C413FD8EC000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32825460-D136-49DB-98DA-C413FD8EC000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9664DEF6-A935-4141-A7C4-4A14ED5FCE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9664DEF6-A935-4141-A7C4-4A14ED5FCE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9664DEF6-A935-4141-A7C4-4A14ED5FCE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9664DEF6-A935-4141-A7C4-4A14ED5FCE62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A338C0A-A482-4607-B7A3-52092F203DF6}
+	EndGlobalSection
+EndGlobal
